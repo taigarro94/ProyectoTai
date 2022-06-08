@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(img/ropa2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.secciones {
+  background: linear-gradient(rgb(90, 100, 226), rgb(121, 168, 187));
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #1aa592;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px; 
+}
+
+
+.contenidoIndex {
+  background: radial-gradient(rgb(33, 120, 126), rgb(87, 87, 187));
+  flex: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid 1px black;
+}
+
+.contenidoIndex:hover {
+  transform: scale(0.85);
+}
+
+.container {
+  padding: 10px;
+};
+
+.quienesSomos1 {
+  color: white;
+  font-weight: bold;
+}
+
+.envios1 {
+  color: white;
+  font-weight: bold;
+}
+
+.mediosDePago {
+  color: white;
+  font-weight: bold;
+}
+
+.compraSegura {
+  color: white;
+  font-weight: bold;
+}
+
+.formularioDeContacto {
+  background: radial-gradient(rgb(33, 120, 126), rgb(87, 87, 187));
+  padding: 10px;
+  border: solid 1px black;
+}
+
+.formularioDeContacto:hover {
+  transform:scale(0.85);
+}
+
+.telefonoHorario {
+  color: white;
+  font-weight: bold;
+}
+
+.horario2 {
+  color: white;
+  font-weight: bold;
+}
+
+.img {
+  width: 100%;
+}
+
+
+.calzado1 {
+  border: solid 2px black;
+}
+
+.calzado2 {
+  border: solid 2px black;
+}
+
+.calzado3 {
+  border: solid 2px black;
+}
+
+.camisa1 {
+  border: solid 2px black;
+}
+
+.camisa2 {
+  border: solid 2px black;
+}
+
+.camisa3 {
+  border: solid 2px black;
+}
+
+.abrigo1 {
+  border: solid 2px black;
+}
+
+.abrigo2 {
+  border: solid 2px black;
+}
+
+.abrigo3 {
+  border: solid 2px black;
+}
+
+.pantalon1 {
+  border: solid 2px black;
+}
+
+.pantalon2 {
+  border: solid 2px black;
+}
+
+.pantalon3 {
+  border: solid 2px black;
+}
+
+.remera1 {
+  border: solid 2px black;
+}
+
+.remera2 {
+  border: solid 2px black;
+}
+
+.remera3 {
+  border: solid 2px black;
+}
+
+#formularioDeContacto {
+  margin-top: 10px;
+}
+
+#pieDePagina {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: solid 1px black;
+}
+
+.contenidoSecciones {
+  margin: 10px;
+}
+
+.calzado1 {
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+
+.calzado2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.calzado3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.camisa1 {
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+
+.camisa2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.camisa3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.remera1 {
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+
+.remera2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.remera3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pantalon1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pantalon2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pantalon3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.abrigo1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.abrigo2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.abrigo3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+#grilla {
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: 10% auto 30%;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-areas: "header" "section" "footer";
+  
+}
+
+.imagenPresentacion {
+  width: 75%;
+}
+
+header {
+  grid-area: header;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.contenidoSecciones {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: space-around;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.sectionGrid {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .menuTextLi{
+    display: none;
+  }
+
+  .secciones {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 320px) {
+  .contenidoSecciones{
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #menuBurger {
+    display: none;
+}
+}
